@@ -1,10 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 //#define TASK_1
 //#define TASK_2
 //#define TASK_3
-//#define TASK_4
+#define TASK_4
 //#define TASK_5
 //#define TASK_61
 //#define TASK_62
@@ -22,7 +22,7 @@ void main()
 #ifdef TASK_1
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j <= i; j++)
@@ -36,7 +36,7 @@ void main()
 #ifdef TASK_2
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++)
@@ -50,7 +50,7 @@ void main()
 #ifdef TASK_3
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < i; j++)cout << "  ";
@@ -66,7 +66,7 @@ void main()
 #ifdef TASK_4
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n - 1; j++)cout << "  ";
@@ -80,7 +80,7 @@ void main()
 #ifdef TASK_5
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n-1; j++)cout << " "; cout << "/";
@@ -99,7 +99,7 @@ void main()
 #ifdef TASK_61
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	if (n % 2 == 0)
 	{
 		for (int i = 0; i < n/2; i++)
@@ -124,7 +124,7 @@ void main()
 #ifdef TASK_62
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	int a = -1;
 	int b = n / 2;
 	for (int i = 0; i < n; i++)
@@ -158,7 +158,7 @@ void main()
 #ifdef TASK_7
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	if (n % 2 == 0)
 	{
 		for (int i = 0; i < n / 2; i++)
@@ -230,7 +230,7 @@ void main()
 #ifdef CLASS_SOLUTION_1
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i; j < n; j++)cout << " ";
@@ -256,7 +256,7 @@ void main()
 #ifdef CLASS_SOLUTION_2
 
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -272,12 +272,12 @@ void main()
 
 #endif
 
-	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	/*int n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 	for (int i = 0; i < n; i++)
 		for (int j = 0; j <= n; j++)
 			cout << (j == n ? "\n" : (i + j) % 2 == 0 ? "+ " : "- ");
-	cout << endl;
+	cout << endl;*/
 
 	
 
